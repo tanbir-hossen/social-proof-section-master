@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --ff: "League Spartan", sans-serif;
+
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-700: 700;
+
+  --clr-primary-100: hsl(300, 43%, 22%);
+  --clr-primary-300: hsl(333, 80%, 67%);
+
+  --clr-magenta-dark: hsl(303, 10%, 53%);
+  --clr-magenta-light: hsl(300, 24%, 96%);
+  --clr-white: hsl(0, 0%, 100%);
+}
+body {
+  font-family: var(--ff);
+}
+.container {
+  background-image: url(images/bg-pattern-top-desktop.svg),
+    url(images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-size: 35%, 45%;
+  max-width: 1440px;
+  margin: 6rem auto;
+}
+.first-section {
+  display: flex;
+  padding: 6rem;
+}
+.intro-section > h1,
+p {
+  max-width: 400px;
+}
+
+h1 {
+  color: var(--clr-primary-100);
+  font-size: 3rem;
+}
+.intro-section > p {
+  color: var(--clr-magenta-dark);
+  margin-top: 2rem;
+}
+.intro-section,
+.rating-section {
+  flex: 1;
+}
+
+/* star section style */
+.star-div {
+  display: flex;
+  background-color: var(--clr-magenta-light);
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  justify-content: space-around;
+  width: 50%;
+  border-radius: 5px;
+  align-items: center;
+}
+/* .star-div > * {
+  flex: 1;
+} */
+.star-div > p {
+  color: var(--clr-primary-100);
+  font-weight: var(--fw-700);
+}
+.star-div-two {
+  margin-left: 2.2rem;
+}
+.star-div-three {
+  margin-left: 4.4rem;
+}
+svg {
+  margin-right: 3px;
+}
