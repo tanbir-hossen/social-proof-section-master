@@ -102,6 +102,7 @@ div {
 }
 .person-info > img {
   border-radius: 50%;
+  width: 12%;
 }
 .name-title {
   margin-left: 20px;
@@ -115,4 +116,49 @@ div {
 }
 .comment-card-three {
   margin-top: 4rem;
+}
+.name {
+  color: var(--clr-white);
+}
+.title {
+  color: var(--clr-primary-300);
+  margin-top: 4px;
+}
+
+/* style for mobile devices */
+
+@media only screen and (max-width: 900px) {
+  .container {
+    text-align: center;
+  }
+  .first-section {
+    padding: 2rem;
+  }
+  .first-section,
+  .star-div {
+    display: block;
+    width: auto;
+  }
+  .star-div-two {
+    margin-left: 0;
+  }
+  .star-div-three {
+    margin-left: 0;
+  }
+  .second-section {
+    padding: 0 2rem 2rem 2rem;
+  }
+  .comment-card-container {
+    display: block;
+  }
+  .star {
+    margin-bottom: 0.6rem;
+  }
+  .comment-card {
+    width: auto;
+    margin-right: 0;
+  }
+  .comment-card-three {
+    margin-top: 2rem;
+  }
 }
