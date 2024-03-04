@@ -130,6 +130,7 @@ div {
 @media only screen and (max-width: 900px) {
   .container {
     text-align: center;
+    margin: 0;
   }
   .first-section {
     padding: 2rem;
@@ -144,6 +145,11 @@ div {
   }
   .star-div-three {
     margin-left: 0;
+  }
+  .intro-section > h1,
+  p {
+    max-width: 500px;
+    margin: 0 auto;
   }
   .second-section {
     padding: 0 2rem 2rem 2rem;
@@ -160,5 +166,8 @@ div {
   }
   .comment-card-three {
     margin-top: 2rem;
+  }
+  .reivew-text {
+    text-align: left;
   }
 }
