@@ -77,3 +77,42 @@ h1 {
 svg {
   margin-right: 3px;
 }
+
+/* second section styles */
+.second-section {
+  padding: 0 6rem 6rem 6rem;
+}
+.comment-card-container {
+  display: flex;
+  margin: 0;
+}
+.comment-card {
+  background-color: var(--clr-primary-100);
+  border-radius: 5px;
+  padding: 2rem;
+  margin-right: 2rem;
+}
+.person-info {
+  display: flex;
+  margin-bottom: 25px;
+}
+.person-info > img,
+div {
+  align-items: center;
+}
+.person-info > img {
+  border-radius: 50%;
+}
+.name-title {
+  margin-left: 20px;
+}
+.comment-card > p {
+  color: var(--clr-white);
+  line-height: 1.3rem;
+}
+.comment-card-two {
+  margin-top: 2rem;
+}
+.comment-card-three {
+  margin-top: 4rem;
+}
